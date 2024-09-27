@@ -1,0 +1,1400 @@
+[{
+  "_id": {
+    "$oid": "66f091ceac2f10cbd1cefd85"
+  },
+  "name": "Speedster",
+  "brand": "Lamborghini",
+  "model": "Huracan",
+  "image": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.9,
+  "fuelType": "Petrol",
+  "passengerCapacity": 2,
+  "color": "Yellow",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f091ceac2f10cbd1cefd86"
+  },
+  "name": "Road Runner",
+  "brand": "Ford",
+  "model": "Mustang",
+  "image": "https://images.pexels.com/photos/2036544/pexels-photo-2036544.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=279.825&fit=crop&h=453.05",
+  "rating": 4.5,
+  "fuelType": "Petrol",
+  "passengerCapacity": 4,
+  "color": "Red",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f091ceac2f10cbd1cefd87"
+  },
+  "name": "Skyline",
+  "brand": "Nissan",
+  "model": "GT-R",
+  "image": "https://images.pexels.com/photos/13369577/pexels-photo-13369577.jpeg?auto=compress&cs=tinysrgb&h=226.525&fit=crop&w=253.17499999999998&dpr=1",
+  "rating": 4.8,
+  "fuelType": "Octane",
+  "passengerCapacity": 4,
+  "color": "Blue",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f091ceac2f10cbd1cefd88"
+  },
+  "name": "Silver Bullet",
+  "brand": "Tesla",
+  "model": "Model S",
+  "image": "https://images.pexels.com/photos/3752194/pexels-photo-3752194.jpeg?auto=compress&cs=tinysrgb&h=226.525&fit=crop&w=253.17499999999998&dpr=1",
+  "rating": 5,
+  "fuelType": "Electric",
+  "passengerCapacity": 5,
+  "color": "Silver",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f091ceac2f10cbd1cefd89"
+  },
+  "name": "Black Stallion",
+  "brand": "Chevrolet",
+  "model": "Camaro",
+  "image": "https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.3,
+  "fuelType": "Petrol",
+  "passengerCapacity": 4,
+  "color": "Black",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f091ceac2f10cbd1cefd8a"
+  },
+  "name": "Midnight Racer",
+  "brand": "Audi",
+  "model": "R8",
+  "image": "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.7,
+  "fuelType": "Petrol",
+  "passengerCapacity": 2,
+  "color": "White",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f091ceac2f10cbd1cefd8b"
+  },
+  "name": "Green Giant",
+  "brand": "Porsche",
+  "model": "911",
+  "image": "https://images.pexels.com/photos/256559/pexels-photo-256559.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.9,
+  "fuelType": "Hybrid",
+  "passengerCapacity": 2,
+  "color": "Green",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f091ceac2f10cbd1cefd8c"
+  },
+  "name": "Electric Eagle",
+  "brand": "Tesla",
+  "model": "Model X",
+  "image": "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 5,
+  "fuelType": "Electric",
+  "passengerCapacity": 5,
+  "color": "Blue",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f091ceac2f10cbd1cefd8d"
+  },
+  "name": "Canyon Cruiser",
+  "brand": "Jeep",
+  "model": "Wrangler",
+  "image": "https://images.pexels.com/photos/137070/pexels-photo-137070.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.2,
+  "fuelType": "Diesel",
+  "passengerCapacity": 5,
+  "color": "Black",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f091ceac2f10cbd1cefd8e"
+  },
+  "name": "Desert King",
+  "brand": "Toyota",
+  "model": "Land Cruiser",
+  "image": "https://images.pexels.com/photos/2442061/pexels-photo-2442061.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.6,
+  "fuelType": "Diesel",
+  "passengerCapacity": 7,
+  "color": "Silver",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f091ceac2f10cbd1cefd8f"
+  },
+  "name": "Maverick",
+  "brand": "Ford",
+  "model": "Bronco",
+  "image": "https://images.pexels.com/photos/210182/pexels-photo-210182.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.4,
+  "fuelType": "Octane",
+  "passengerCapacity": 5,
+  "color": "White",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f091ceac2f10cbd1cefd90"
+  },
+  "name": "Urban Commuter",
+  "brand": "Honda",
+  "model": "Civic",
+  "image": "https://images.pexels.com/photos/1704115/pexels-photo-1704115.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "Gray",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f091ceac2f10cbd1cefd91"
+  },
+  "name": "Blizzard",
+  "brand": "Subaru",
+  "model": "Impreza",
+  "image": "https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.7,
+  "fuelType": "Octane",
+  "passengerCapacity": 5,
+  "color": "White",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f091ceac2f10cbd1cefd92"
+  },
+  "name": "Electric Arrow",
+  "brand": "Rivian",
+  "model": "R1T",
+  "image": "https://images.pexels.com/photos/1268507/pexels-photo-1268507.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 5,
+  "fuelType": "Electric",
+  "passengerCapacity": 5,
+  "color": "Green",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0922cac2f10cbd1cefd94"
+  },
+  "name": "Thunderbolt",
+  "brand": "McLaren",
+  "model": "720S",
+  "image": "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.8,
+  "fuelType": "Petrol",
+  "passengerCapacity": 2,
+  "color": "Orange",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0922cac2f10cbd1cefd95"
+  },
+  "name": "Ironclad",
+  "brand": "Mercedes-Benz",
+  "model": "G-Class",
+  "image": "https://images.pexels.com/photos/210182/pexels-photo-210182.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.7,
+  "fuelType": "Diesel",
+  "passengerCapacity": 5,
+  "color": "Black",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0922cac2f10cbd1cefd96"
+  },
+  "name": "Phoenix",
+  "brand": "Aston Martin",
+  "model": "DB11",
+  "image": "https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.6,
+  "fuelType": "Petrol",
+  "passengerCapacity": 2,
+  "color": "Gray",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0922cac2f10cbd1cefd97"
+  },
+  "name": "Blaze",
+  "brand": "Lexus",
+  "model": "LC 500",
+  "image": "https://images.pexels.com/photos/13369577/pexels-photo-13369577.jpeg?auto=compress&cs=tinysrgb&h=226.525&fit=crop&w=253.17499999999998&dpr=1",
+  "rating": 4.9,
+  "fuelType": "Petrol",
+  "passengerCapacity": 4,
+  "color": "Red",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0922cac2f10cbd1cefd98"
+  },
+  "name": "Falcon",
+  "brand": "Ford",
+  "model": "F-150",
+  "image": "https://images.pexels.com/photos/2036544/pexels-photo-2036544.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=279.825&fit=crop&h=453.05",
+  "rating": 4.5,
+  "fuelType": "Diesel",
+  "passengerCapacity": 5,
+  "color": "Blue",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f0922cac2f10cbd1cefd99"
+  },
+  "name": "Electro",
+  "brand": "Tesla",
+  "model": "Model 3",
+  "image": "https://images.pexels.com/photos/2442061/pexels-photo-2442061.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 5,
+  "fuelType": "Electric",
+  "passengerCapacity": 5,
+  "color": "Black",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0922cac2f10cbd1cefd9a"
+  },
+  "name": "Vortex",
+  "brand": "Chevrolet",
+  "model": "Corvette",
+  "image": "https://images.pexels.com/photos/137070/pexels-photo-137070.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.4,
+  "fuelType": "Petrol",
+  "passengerCapacity": 2,
+  "color": "Yellow",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0922cac2f10cbd1cefd9b"
+  },
+  "name": "Shadow",
+  "brand": "BMW",
+  "model": "M5",
+  "image": "https://images.pexels.com/photos/256559/pexels-photo-256559.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.7,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "Black",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f0922cac2f10cbd1cefd9c"
+  },
+  "name": "Patriot",
+  "brand": "Jeep",
+  "model": "Grand Cherokee",
+  "image": "https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.2,
+  "fuelType": "Diesel",
+  "passengerCapacity": 5,
+  "color": "White",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f0922cac2f10cbd1cefd9d"
+  },
+  "name": "Thunder",
+  "brand": "Rolls-Royce",
+  "model": "Phantom",
+  "image": "https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.8,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "Silver",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0922cac2f10cbd1cefd9e"
+  },
+  "name": "Avalanche",
+  "brand": "Toyota",
+  "model": "Hilux",
+  "image": "https://images.pexels.com/photos/1268507/pexels-photo-1268507.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.3,
+  "fuelType": "Diesel",
+  "passengerCapacity": 5,
+  "color": "Green",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f0922cac2f10cbd1cefd9f"
+  },
+  "name": "Comet",
+  "brand": "Porsche",
+  "model": "Taycan",
+  "image": "https://images.pexels.com/photos/1704115/pexels-photo-1704115.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 5,
+  "fuelType": "Electric",
+  "passengerCapacity": 4,
+  "color": "Blue",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0922cac2f10cbd1cefda0"
+  },
+  "name": "Inferno",
+  "brand": "Ferrari",
+  "model": "488 GTB",
+  "image": "https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.9,
+  "fuelType": "Petrol",
+  "passengerCapacity": 2,
+  "color": "Red",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0922cac2f10cbd1cefda1"
+  },
+  "name": "Wave",
+  "brand": "Honda",
+  "model": "CR-V",
+  "image": "https://images.pexels.com/photos/13369577/pexels-photo-13369577.jpeg?auto=compress&cs=tinysrgb&h=226.525&fit=crop&w=253.17499999999998&dpr=1",
+  "rating": 4.3,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "Gray",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f0922cac2f10cbd1cefda2"
+  },
+  "name": "Charger",
+  "brand": "Dodge",
+  "model": "Challenger",
+  "image": "https://images.pexels.com/photos/3752194/pexels-photo-3752194.jpeg?auto=compress&cs=tinysrgb&h=226.525&fit=crop&w=253.17499999999998&dpr=1",
+  "rating": 4.6,
+  "fuelType": "Petrol",
+  "passengerCapacity": 4,
+  "color": "Orange",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f0922cac2f10cbd1cefda3"
+  },
+  "name": "Silverhawk",
+  "brand": "Nissan",
+  "model": "370Z",
+  "image": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.5,
+  "fuelType": "Octane",
+  "passengerCapacity": 2,
+  "color": "Silver",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0922cac2f10cbd1cefda4"
+  },
+  "name": "Crystal",
+  "brand": "Jaguar",
+  "model": "XF",
+  "image": "https://images.pexels.com/photos/3752194/pexels-photo-3752194.jpeg?auto=compress&cs=tinysrgb&h=226.525&fit=crop&w=253.17499999999998&dpr=1",
+  "rating": 4.7,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "White",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0922cac2f10cbd1cefda5"
+  },
+  "name": "Midnight",
+  "brand": "Audi",
+  "model": "Q7",
+  "image": "https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.8,
+  "fuelType": "Diesel",
+  "passengerCapacity": 7,
+  "color": "Black",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f0922cac2f10cbd1cefda6"
+  },
+  "name": "Titan",
+  "brand": "Hyundai",
+  "model": "Tucson",
+  "image": "https://images.pexels.com/photos/2036544/pexels-photo-2036544.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=279.825&fit=crop&h=453.05",
+  "rating": 4.6,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "Blue",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0922cac2f10cbd1cefda7"
+  },
+  "name": "Spectre",
+  "brand": "Bentley",
+  "model": "Continental GT",
+  "image": "https://images.pexels.com/photos/137070/pexels-photo-137070.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.9,
+  "fuelType": "Petrol",
+  "passengerCapacity": 4,
+  "color": "Green",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0922cac2f10cbd1cefda8"
+  },
+  "name": "Raider",
+  "brand": "Land Rover",
+  "model": "Defender",
+  "image": "https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.5,
+  "fuelType": "Diesel",
+  "passengerCapacity": 7,
+  "color": "Silver",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f09291ac2f10cbd1cefdaa"
+  },
+  "name": "Ranger",
+  "brand": "Toyota",
+  "model": "RAV4",
+  "image": "https://images.pexels.com/photos/1553587/pexels-photo-1553587.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.5,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "Green",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f09291ac2f10cbd1cefdab"
+  },
+  "name": "Legacy",
+  "brand": "Nissan",
+  "model": "Altima",
+  "image": "https://images.pexels.com/photos/1597031/pexels-photo-1597031.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.3,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "Blue",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f09291ac2f10cbd1cefdac"
+  },
+  "name": "Explorer",
+  "brand": "Honda",
+  "model": "CR-V",
+  "image": "https://images.pexels.com/photos/1731102/pexels-photo-1731102.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.6,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "White",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f09291ac2f10cbd1cefdad"
+  },
+  "name": "Voyager",
+  "brand": "Subaru",
+  "model": "Outback",
+  "image": "https://images.pexels.com/photos/1624323/pexels-photo-1624323.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.4,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "Brown",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f09291ac2f10cbd1cefdae"
+  },
+  "name": "Comet",
+  "brand": "Hyundai",
+  "model": "Elantra",
+  "image": "https://images.pexels.com/photos/2344208/pexels-photo-2344208.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.5,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "Red",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f09291ac2f10cbd1cefdaf"
+  },
+  "name": "Odyssey",
+  "brand": "Kia",
+  "model": "Sorento",
+  "image": "https://images.pexels.com/photos/1641075/pexels-photo-1641075.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.2,
+  "fuelType": "Diesel",
+  "passengerCapacity": 7,
+  "color": "Silver",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f09291ac2f10cbd1cefdb0"
+  },
+  "name": "Titan",
+  "brand": "Volkswagen",
+  "model": "Tiguan",
+  "image": "https://images.pexels.com/photos/1264090/pexels-photo-1264090.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.5,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "Black",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f09291ac2f10cbd1cefdb1"
+  },
+  "name": "Racer",
+  "brand": "Mazda",
+  "model": "MX-5 Miata",
+  "image": "https://images.pexels.com/photos/1279336/pexels-photo-1279336.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.8,
+  "fuelType": "Petrol",
+  "passengerCapacity": 2,
+  "color": "Blue",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f09291ac2f10cbd1cefdb2"
+  },
+  "name": "Adventurer",
+  "brand": "Chrysler",
+  "model": "Pacifica",
+  "image": "https://images.pexels.com/photos/1624186/pexels-photo-1624186.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.1,
+  "fuelType": "Petrol",
+  "passengerCapacity": 7,
+  "color": "White",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f09291ac2f10cbd1cefdb3"
+  },
+  "name": "Navigator",
+  "brand": "Dodge",
+  "model": "Durango",
+  "image": "https://images.pexels.com/photos/1640873/pexels-photo-1640873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.6,
+  "fuelType": "Petrol",
+  "passengerCapacity": 7,
+  "color": "Red",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f092aaac2f10cbd1cefdb5"
+  },
+  "name": "Summit",
+  "brand": "Chevrolet",
+  "model": "Tahoe",
+  "image": "https://images.pexels.com/photos/2178597/pexels-photo-2178597.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.4,
+  "fuelType": "Petrol",
+  "passengerCapacity": 7,
+  "color": "Black",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f092aaac2f10cbd1cefdb6"
+  },
+  "name": "Pioneer",
+  "brand": "Ford",
+  "model": "F-150",
+  "image": "https://images.pexels.com/photos/1048275/pexels-photo-1048275.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.5,
+  "fuelType": "Diesel",
+  "passengerCapacity": 5,
+  "color": "White",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f092aaac2f10cbd1cefdb7"
+  },
+  "name": "Voyage",
+  "brand": "BMW",
+  "model": "X5",
+  "image": "https://images.pexels.com/photos/1457766/pexels-photo-1457766.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.7,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "Blue",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f092aaac2f10cbd1cefdb8"
+  },
+  "name": "Journey",
+  "brand": "Audi",
+  "model": "Q7",
+  "image": "https://images.pexels.com/photos/1164206/pexels-photo-1164206.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.8,
+  "fuelType": "Diesel",
+  "passengerCapacity": 7,
+  "color": "Silver",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f092aaac2f10cbd1cefdb9"
+  },
+  "name": "Expedition",
+  "brand": "Mercedes-Benz",
+  "model": "G-Class",
+  "image": "https://images.pexels.com/photos/1571483/pexels-photo-1571483.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.9,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "Black",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f092aaac2f10cbd1cefdba"
+  },
+  "name": "Cruiser",
+  "brand": "Lexus",
+  "model": "RX 350",
+  "image": "https://images.pexels.com/photos/1599788/pexels-photo-1599788.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.6,
+  "fuelType": "Hybrid",
+  "passengerCapacity": 5,
+  "color": "White",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f092aaac2f10cbd1cefdbb"
+  },
+  "name": "Commuter",
+  "brand": "Jaguar",
+  "model": "F-Pace",
+  "image": "https://images.pexels.com/photos/1566475/pexels-photo-1566475.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.7,
+  "fuelType": "Diesel",
+  "passengerCapacity": 5,
+  "color": "Red",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f092aaac2f10cbd1cefdbc"
+  },
+  "name": "Challenger",
+  "brand": "Porsche",
+  "model": "Macan",
+  "image": "https://images.pexels.com/photos/2201143/pexels-photo-2201143.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.8,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "Blue",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f092aaac2f10cbd1cefdbd"
+  },
+  "name": "Maverick",
+  "brand": "Land Rover",
+  "model": "Discovery",
+  "image": "https://images.pexels.com/photos/1644196/pexels-photo-1644196.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.5,
+  "fuelType": "Diesel",
+  "passengerCapacity": 7,
+  "color": "Green",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f092aaac2f10cbd1cefdbe"
+  },
+  "name": "Explorer",
+  "brand": "Volvo",
+  "model": "XC90",
+  "image": "https://images.pexels.com/photos/1051235/pexels-photo-1051235.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.6,
+  "fuelType": "Hybrid",
+  "passengerCapacity": 7,
+  "color": "Black",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f092ccac2f10cbd1cefdc0"
+  },
+  "name": "Navigator",
+  "brand": "Tesla",
+  "model": "Model X",
+  "image": "https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.9,
+  "fuelType": "Electric",
+  "passengerCapacity": 7,
+  "color": "White",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f092ccac2f10cbd1cefdc1"
+  },
+  "name": "Voyager",
+  "brand": "Nissan",
+  "model": "Rogue",
+  "image": "https://images.pexels.com/photos/1659896/pexels-photo-1659896.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.3,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "Silver",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f092ccac2f10cbd1cefdc2"
+  },
+  "name": "Ranger",
+  "brand": "Hyundai",
+  "model": "Tucson",
+  "image": "https://images.pexels.com/photos/1313924/pexels-photo-1313924.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.4,
+  "fuelType": "Hybrid",
+  "passengerCapacity": 5,
+  "color": "Red",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f092ccac2f10cbd1cefdc3"
+  },
+  "name": "Tracker",
+  "brand": "Subaru",
+  "model": "Outback",
+  "image": "https://images.pexels.com/photos/3755795/pexels-photo-3755795.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.6,
+  "fuelType": "Diesel",
+  "passengerCapacity": 5,
+  "color": "Blue",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f092ccac2f10cbd1cefdc4"
+  },
+  "name": "Globetrotter",
+  "brand": "Kia",
+  "model": "Sportage",
+  "image": "https://images.pexels.com/photos/1665732/pexels-photo-1665732.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.7,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "Black",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f092ccac2f10cbd1cefdc5"
+  },
+  "name": "Sailor",
+  "brand": "Volkswagen",
+  "model": "Tiguan",
+  "image": "https://images.pexels.com/photos/1915988/pexels-photo-1915988.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.5,
+  "fuelType": "Hybrid",
+  "passengerCapacity": 5,
+  "color": "Green",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f092ccac2f10cbd1cefdc6"
+  },
+  "name": "Journeyer",
+  "brand": "Mazda",
+  "model": "CX-5",
+  "image": "https://images.pexels.com/photos/3378328/pexels-photo-3378328.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.8,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "Silver",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f092ccac2f10cbd1cefdc7"
+  },
+  "name": "Seeker",
+  "brand": "Chrysler",
+  "model": "Pacifica",
+  "image": "https://images.pexels.com/photos/2252181/pexels-photo-2252181.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.6,
+  "fuelType": "Hybrid",
+  "passengerCapacity": 7,
+  "color": "White",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f092ccac2f10cbd1cefdc8"
+  },
+  "name": "Traveler",
+  "brand": "Buick",
+  "model": "Enclave",
+  "image": "https://images.pexels.com/photos/3397500/pexels-photo-3397500.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.7,
+  "fuelType": "Diesel",
+  "passengerCapacity": 7,
+  "color": "Black",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f092ccac2f10cbd1cefdc9"
+  },
+  "name": "Adventurer",
+  "brand": "Infiniti",
+  "model": "QX60",
+  "image": "https://images.pexels.com/photos/3701825/pexels-photo-3701825.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.5,
+  "fuelType": "Petrol",
+  "passengerCapacity": 7,
+  "color": "Red",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefdcb"
+  },
+  "name": "Nomad",
+  "brand": "Ford",
+  "model": "Explorer",
+  "image": "https://images.pexels.com/photos/3453476/pexels-photo-3453476.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.4,
+  "fuelType": "Petrol",
+  "passengerCapacity": 7,
+  "color": "Blue",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefdcc"
+  },
+  "name": "Pioneer",
+  "brand": "Honda",
+  "model": "CR-V",
+  "image": "https://images.pexels.com/photos/2133445/pexels-photo-2133445.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.6,
+  "fuelType": "Hybrid",
+  "passengerCapacity": 5,
+  "color": "Silver",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefdcd"
+  },
+  "name": "Pathfinder",
+  "brand": "Chevrolet",
+  "model": "Equinox",
+  "image": "https://images.pexels.com/photos/2481494/pexels-photo-2481494.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.3,
+  "fuelType": "Diesel",
+  "passengerCapacity": 5,
+  "color": "White",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefdce"
+  },
+  "name": "Explorer",
+  "brand": "Dodge",
+  "model": "Durango",
+  "image": "https://images.pexels.com/photos/2358700/pexels-photo-2358700.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.5,
+  "fuelType": "Petrol",
+  "passengerCapacity": 7,
+  "color": "Black",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefdcf"
+  },
+  "name": "Expedition",
+  "brand": "Toyota",
+  "model": "Highlander",
+  "image": "https://images.pexels.com/photos/2481495/pexels-photo-2481495.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.7,
+  "fuelType": "Hybrid",
+  "passengerCapacity": 8,
+  "color": "Red",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefdd0"
+  },
+  "name": "Voyage",
+  "brand": "GMC",
+  "model": "Acadia",
+  "image": "https://images.pexels.com/photos/1921656/pexels-photo-1921656.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.2,
+  "fuelType": "Diesel",
+  "passengerCapacity": 7,
+  "color": "Silver",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefdd1"
+  },
+  "name": "Trekker",
+  "brand": "Jeep",
+  "model": "Grand Cherokee",
+  "image": "https://images.pexels.com/photos/4057865/pexels-photo-4057865.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.8,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "White",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefdd2"
+  },
+  "name": "Savant",
+  "brand": "Volkswagen",
+  "model": "Atlas",
+  "image": "https://images.pexels.com/photos/3739355/pexels-photo-3739355.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.4,
+  "fuelType": "Hybrid",
+  "passengerCapacity": 7,
+  "color": "Blue",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefdd3"
+  },
+  "name": "Odyssey",
+  "brand": "Subaru",
+  "model": "Ascent",
+  "image": "https://images.pexels.com/photos/4402025/pexels-photo-4402025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.5,
+  "fuelType": "Diesel",
+  "passengerCapacity": 8,
+  "color": "Black",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefdd4"
+  },
+  "name": "Trailblazer",
+  "brand": "Mazda",
+  "model": "CX-9",
+  "image": "https://images.pexels.com/photos/5062776/pexels-photo-5062776.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.6,
+  "fuelType": "Petrol",
+  "passengerCapacity": 7,
+  "color": "Red",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefdd5"
+  },
+  "name": "Jetsetter",
+  "brand": "Lincoln",
+  "model": "Aviator",
+  "image": "https://images.pexels.com/photos/1915732/pexels-photo-1915732.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.9,
+  "fuelType": "Hybrid",
+  "passengerCapacity": 7,
+  "color": "White",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefdd6"
+  },
+  "name": "Explorer",
+  "brand": "Nissan",
+  "model": "Armada",
+  "image": "https://images.pexels.com/photos/1921662/pexels-photo-1921662.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.5,
+  "fuelType": "Diesel",
+  "passengerCapacity": 8,
+  "color": "Silver",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefdd7"
+  },
+  "name": "Frontier",
+  "brand": "Kia",
+  "model": "Telluride",
+  "image": "https://images.pexels.com/photos/3912479/pexels-photo-3912479.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.8,
+  "fuelType": "Petrol",
+  "passengerCapacity": 8,
+  "color": "Black",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefdd8"
+  },
+  "name": "Horizon",
+  "brand": "Hyundai",
+  "model": "Palisade",
+  "image": "https://images.pexels.com/photos/2774277/pexels-photo-2774277.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.4,
+  "fuelType": "Hybrid",
+  "passengerCapacity": 8,
+  "color": "Blue",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefdd9"
+  },
+  "name": "Rider",
+  "brand": "Ford",
+  "model": "Maverick",
+  "image": "https://images.pexels.com/photos/3833159/pexels-photo-3833159.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.6,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "Red",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefdda"
+  },
+  "name": "Raider",
+  "brand": "Chevrolet",
+  "model": "Tahoe",
+  "image": "https://images.pexels.com/photos/2050550/pexels-photo-2050550.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.7,
+  "fuelType": "Diesel",
+  "passengerCapacity": 7,
+  "color": "White",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefddb"
+  },
+  "name": "Voyager",
+  "brand": "Toyota",
+  "model": "Sequoia",
+  "image": "https://images.pexels.com/photos/2863582/pexels-photo-2863582.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.8,
+  "fuelType": "Hybrid",
+  "passengerCapacity": 8,
+  "color": "Black",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefddc"
+  },
+  "name": "Traveler",
+  "brand": "Honda",
+  "model": "Pilot",
+  "image": "https://images.pexels.com/photos/4068148/pexels-photo-4068148.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.5,
+  "fuelType": "Petrol",
+  "passengerCapacity": 8,
+  "color": "Silver",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefddd"
+  },
+  "name": "Champion",
+  "brand": "Mazda",
+  "model": "MX-30",
+  "image": "https://images.pexels.com/photos/3968074/pexels-photo-3968074.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.6,
+  "fuelType": "Electric",
+  "passengerCapacity": 5,
+  "color": "Green",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefdde"
+  },
+  "name": "Sentinel",
+  "brand": "Mercedes-Benz",
+  "model": "GLB",
+  "image": "https://images.pexels.com/photos/2885404/pexels-photo-2885404.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.7,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "Blue",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefddf"
+  },
+  "name": "Guardian",
+  "brand": "Lexus",
+  "model": "RX",
+  "image": "https://images.pexels.com/photos/3037308/pexels-photo-3037308.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.9,
+  "fuelType": "Hybrid",
+  "passengerCapacity": 5,
+  "color": "Red",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefde0"
+  },
+  "name": "Voyager",
+  "brand": "Porsche",
+  "model": "Macan",
+  "image": "https://images.pexels.com/photos/3770744/pexels-photo-3770744.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.8,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "White",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefde1"
+  },
+  "name": "Seeker",
+  "brand": "Audi",
+  "model": "Q5",
+  "image": "https://images.pexels.com/photos/4271347/pexels-photo-4271347.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.6,
+  "fuelType": "Diesel",
+  "passengerCapacity": 5,
+  "color": "Black",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f0932dac2f10cbd1cefde2"
+  },
+  "name": "Maverick",
+  "brand": "Land Rover",
+  "model": "Range Rover",
+  "image": "https://images.pexels.com/photos/3066342/pexels-photo-3066342.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.7,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "Blue",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f09350ac2f10cbd1cefde4"
+  },
+  "name": "Navigator",
+  "brand": "Infiniti",
+  "model": "QX60",
+  "image": "https://images.pexels.com/photos/2208508/pexels-photo-2208508.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.4,
+  "fuelType": "Petrol",
+  "passengerCapacity": 7,
+  "color": "Silver",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f09350ac2f10cbd1cefde5"
+  },
+  "name": "Rover",
+  "brand": "Chrysler",
+  "model": "Pacifica",
+  "image": "https://images.pexels.com/photos/3396433/pexels-photo-3396433.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.6,
+  "fuelType": "Hybrid",
+  "passengerCapacity": 8,
+  "color": "White",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f09350ac2f10cbd1cefde6"
+  },
+  "name": "Cruiser",
+  "brand": "Buick",
+  "model": "Enclave",
+  "image": "https://images.pexels.com/photos/2745550/pexels-photo-2745550.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.5,
+  "fuelType": "Diesel",
+  "passengerCapacity": 7,
+  "color": "Black",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f09350ac2f10cbd1cefde7"
+  },
+  "name": "Explorer",
+  "brand": "Volvo",
+  "model": "XC90",
+  "image": "https://images.pexels.com/photos/1459384/pexels-photo-1459384.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.8,
+  "fuelType": "Petrol",
+  "passengerCapacity": 7,
+  "color": "Red",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f09350ac2f10cbd1cefde8"
+  },
+  "name": "Adventurer",
+  "brand": "Tesla",
+  "model": "Model X",
+  "image": "https://images.pexels.com/photos/3405203/pexels-photo-3405203.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.9,
+  "fuelType": "Electric",
+  "passengerCapacity": 7,
+  "color": "Blue",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f09350ac2f10cbd1cefde9"
+  },
+  "name": "Voyager",
+  "brand": "BMW",
+  "model": "X7",
+  "image": "https://images.pexels.com/photos/3135130/pexels-photo-3135130.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.7,
+  "fuelType": "Petrol",
+  "passengerCapacity": 7,
+  "color": "Silver",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f09350ac2f10cbd1cefdea"
+  },
+  "name": "Seeker",
+  "brand": "Jaguar",
+  "model": "F-PACE",
+  "image": "https://images.pexels.com/photos/4069481/pexels-photo-4069481.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.6,
+  "fuelType": "Diesel",
+  "passengerCapacity": 5,
+  "color": "Black",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f09350ac2f10cbd1cefdeb"
+  },
+  "name": "Pursuit",
+  "brand": "Acura",
+  "model": "MDX",
+  "image": "https://images.pexels.com/photos/4251741/pexels-photo-4251741.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.5,
+  "fuelType": "Hybrid",
+  "passengerCapacity": 7,
+  "color": "White",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f09350ac2f10cbd1cefdec"
+  },
+  "name": "Navigator",
+  "brand": "Land Rover",
+  "model": "Discovery",
+  "image": "https://images.pexels.com/photos/3912518/pexels-photo-3912518.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.8,
+  "fuelType": "Diesel",
+  "passengerCapacity": 7,
+  "color": "Red",
+  "condition": "New"
+},
+{
+  "_id": {
+    "$oid": "66f09350ac2f10cbd1cefded"
+  },
+  "name": "Adventurer",
+  "brand": "Porsche",
+  "model": "Cayenne",
+  "image": "https://images.pexels.com/photos/3791514/pexels-photo-3791514.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.9,
+  "fuelType": "Petrol",
+  "passengerCapacity": 5,
+  "color": "Blue",
+  "condition": "Used"
+},
+{
+  "_id": {
+    "$oid": "66f09350ac2f10cbd1cefdee"
+  },
+  "name": "Champion",
+  "brand": "Mercedes-Benz",
+  "model": "GLS",
+  "image": "https://images.pexels.com/photos/2746214/pexels-photo-2746214.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+  "rating": 4.7,
+  "fuelType": "Hybrid",
+  "passengerCapacity": 7,
+  "color": "Silver",
+  "condition": "New"
+}]

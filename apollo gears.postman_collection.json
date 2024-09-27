@@ -1,0 +1,732 @@
+{
+	"info": {
+		"_postman_id": "a8352301-0533-42c3-88bd-07325ca9ba04",
+		"name": "apollo gears",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28346560",
+		"_collection_link": "https://cloudy-spaceship-160654.postman.co/workspace/Team-Workspace~bc4d3685-422d-409f-8beb-c299230f93b9/collection/28346560-a8352301-0533-42c3-88bd-07325ca9ba04?action=share&source=collection_link&creator=28346560"
+	},
+	"item": [
+		{
+			"name": "auth",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"user@gmail.com\",\r\n    \"password\": \"123456\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{apollogears}}/auth/login",
+							"host": [
+								"{{apollogears}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "registration",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n     \"name\":\"mehedi\",\r\n    \"email\":\"driver2@gmail.com\",\r\n    \"password\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{apollogears}}/auth/register",
+							"host": [
+								"{{apollogears}}"
+							],
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "admin",
+			"item": [
+				{
+					"name": "create a car",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlkIjoiNjY0NWQ4ZWE0YjRmNTEyMzI4YWRmMDZhIiwiaWF0IjoxNzE1ODUzNzE4LCJleHAiOjE3MTU5NDAxMTh9.kiy313vlYGtD85kkUyhfuGj9w1aS9Wdq83UnpZGad0U",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Mercedes-Benz E-Class\",\r\n  \"brand\": \"Mercedes-Benz\",\r\n  \"model\": \"E-Class-2023\",\r\n  \"image\": \"https://stimg2.cardekho.com/images/roadTestimages/userimages/722/1620195837912/GeneralRoadTest.jpg?tr=w-360?tr=w-320\",\r\n  \"rating\": 4.9,\r\n  \"fuelType\": \"d\",\r\n  \"passengerCapacity\": 5,\r\n  \"color\": \"Gray\",\r\n  \"condition\": \"Nesw\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{apollogears}}/cars",
+							"host": [
+								"{{apollogears}}"
+							],
+							"path": [
+								"cars"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "create a car",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcxNTYyNTEzNCwiZXhwIjoxNzE1NzExNTM0fQ.kRneedwonjpC5aClE9SBLp_YQ6ZUQRLicjqlLP8aEoI",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"name\": \"Toyota Corolla\",\r\n  \"brand\": \"Toyota\",\r\n  \"model\": \"Corolla-2023\",\r\n  \"image\": \"https://imageonthefly.autodatadirect.com/images/?width=1200&height=900&IMG=USD30TOS251B01300.jpg\",\r\n  \"rating\": 4.5,\r\n  \"fuelType\": \"Petrol\",\r\n  \"passengerCapacity\": 5,\r\n  \"color\": \"Silver\",\r\n  \"condition\": \"New\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{apollogears}}/cars",
+									"host": [
+										"{{apollogears}}"
+									],
+									"path": [
+										"cars"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "366"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"16e-txlZVW+SDOWAdah0aY4/mGXm4UM\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 13 May 2024 18:35:44 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"Car is created succesfully\",\n    \"data\": {\n        \"name\": \"Toyota Corolla\",\n        \"brand\": \"Toyota\",\n        \"model\": \"Corolla-2023\",\n        \"image\": \"https://imageonthefly.autodatadirect.com/images/?width=1200&height=900&IMG=USD30TOS251B01300.jpg\",\n        \"rating\": 4.5,\n        \"fuelType\": \"Petrol\",\n        \"passengerCapacity\": 5,\n        \"color\": \"Silver\",\n        \"condition\": \"New\",\n        \"_id\": \"66425d7f7d0182c2e1cff4b9\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "update user role",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlkIjoiNjY0MDdmYTc5ZTNmYWNkNDg2NjQyNjI2IiwiaWF0IjoxNzE1ODUwMzQ5LCJleHAiOjE3MTU5MzY3NDl9.uv23poHoaV14D1vmlMb725jKvgBVfgo_-jeGoPlNTCQ",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"role\":\"driver\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{apollogears}}/users/6645cb86c04d7716dde682f4",
+							"host": [
+								"{{apollogears}}"
+							],
+							"path": [
+								"users",
+								"6645cb86c04d7716dde682f4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create user",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "rent ca car",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3MTU4NDkzMzgsImV4cCI6MTcxNTkzNTczOH0.XN6ryTgvi-yacNgu13ijW_Tb0gOGa2GRm0OSPBgnJZ8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"user\": \"6645c8716fde68da11e4f5bb\", // User ID reference\r\n  \"car\": \"66425d7f7d0182c2e1cff4b9\", // Car ID reference\r\n  \"startingPoint\": \"123 Main Street\",\r\n  \"destination\": \"456 Elm Street\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{apollogears}}/rents",
+							"host": [
+								"{{apollogears}}"
+							],
+							"path": [
+								"rents"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "rent ca car",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1laGVkaWltdW43QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzE1NjI1Nzc0LCJleHAiOjE3MTU3MTIxNzR9.STWaHZ4f7HQOEmM8Fzm6VP2IAvMjjf1FUl72ctnFr5k",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"user\": \"663d2b6df22c1273d0823718\", // User ID reference\r\n  \"car\": \"66425d7f7d0182c2e1cff4b9\", // Car ID reference\r\n  \"startingPoint\": \"123 Main Street\",\r\n  \"destination\": \"456 Elm Street\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{apollogears}}/rents",
+									"host": [
+										"{{apollogears}}"
+									],
+									"path": [
+										"rents"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "261"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"105-XJQJlhogTc0ZxQ5r461482mDsUI\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 13 May 2024 18:48:54 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"Rent is created succesfully\",\n    \"data\": {\n        \"user\": \"663d2b6df22c1273d0823718\",\n        \"car\": \"66425d7f7d0182c2e1cff4b9\",\n        \"rentStatus\": \"pending\",\n        \"startingPoint\": \"123 Main Street\",\n        \"destination\": \"456 Elm Street\",\n        \"_id\": \"66426096f74eb0c14890c084\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "get user rent",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpZCI6IjY2NDVjODcxNmZkZTY4ZGExMWU0ZjViYiIsImlhdCI6MTcxNTg0OTc2NywiZXhwIjoxNzE1OTM2MTY3fQ.QXK889Q9Bc29OSFSSkVt9nVgcWHemPP3fmWQeYzyTyU",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{apollogears}}/rents?user=6645c8716fde68da11e4f5bb&rentStatus=pending",
+							"host": [
+								"{{apollogears}}"
+							],
+							"path": [
+								"rents"
+							],
+							"query": [
+								{
+									"key": "user",
+									"value": "6645c8716fde68da11e4f5bb"
+								},
+								{
+									"key": "rentStatus",
+									"value": "pending"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get user rent",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1laGVkaWltdW43QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzE1NjI1Nzc0LCJleHAiOjE3MTU3MTIxNzR9.STWaHZ4f7HQOEmM8Fzm6VP2IAvMjjf1FUl72ctnFr5k",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{apollogears}}/rents?user=663d2b6df22c1273d0823718&rentStatus=pending",
+									"host": [
+										"{{apollogears}}"
+									],
+									"path": [
+										"rents"
+									],
+									"query": [
+										{
+											"key": "user",
+											"value": "663d2b6df22c1273d0823718"
+										},
+										{
+											"key": "rentStatus",
+											"value": "pending"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "312"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"138-xRONZZjkRhFAVnJul/Jxaig3gWw\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 13 May 2024 19:05:36 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"Rents are retrieved succesfully\",\n    \"data\": [\n        {\n            \"_id\": \"66426096f74eb0c14890c084\",\n            \"user\": \"663d2b6df22c1273d0823718\",\n            \"car\": \"66425d7f7d0182c2e1cff4b9\",\n            \"rentStatus\": \"pending\",\n            \"startingPoint\": \"123 Main Street\",\n            \"destination\": \"456 Elm Street\"\n        }\n    ],\n    \"meta\": {\n        \"page\": 1,\n        \"limit\": 10,\n        \"total\": 1,\n        \"totalPage\": 1\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "get rent bids",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRyaXZlcjJAZ21haWwuY29tIiwicm9sZSI6ImRyaXZlciIsImlkIjoiNjY0NWNiODZjMDRkNzcxNmRkZTY4MmY0IiwiaWF0IjoxNzE1ODUwMzg3LCJleHAiOjE3MTU5MzY3ODd9.iHOLm9XZ6l8tNkdBxSkOTx43lHw-ogFM_OjbgYyKEP8",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{apollogears}}/bids?rentId=6645ca7cc04d7716dde682dc",
+							"host": [
+								"{{apollogears}}"
+							],
+							"path": [
+								"bids"
+							],
+							"query": [
+								{
+									"key": "rentId",
+									"value": "6645ca7cc04d7716dde682dc"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get rest bids",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1laGVkaWltdW43QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzE1NjI1Nzc0LCJleHAiOjE3MTU3MTIxNzR9.STWaHZ4f7HQOEmM8Fzm6VP2IAvMjjf1FUl72ctnFr5k",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{apollogears}}/bids?rentId=66426096f74eb0c14890c084",
+									"host": [
+										"{{apollogears}}"
+									],
+									"path": [
+										"bids"
+									],
+									"query": [
+										{
+											"key": "rentId",
+											"value": "66426096f74eb0c14890c084"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "308"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"134-ZoOR0K6/2sZfYuPtKOfoEiR9eD0\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 13 May 2024 19:11:26 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"Bids are retrieved succesfully\",\n    \"data\": [\n        {\n            \"bid\": {\n                \"driver\": \"664081829e3facd486642629\",\n                \"bidAmount\": 100,\n                \"driverLocation\": \"789 Oak Street\",\n                \"bidStatus\": \"pending\"\n            },\n            \"_id\": \"6642631371945c0176d8d547\",\n            \"rentId\": \"66426096f74eb0c14890c084\"\n        }\n    ],\n    \"meta\": {\n        \"page\": 1,\n        \"limit\": 10,\n        \"total\": 1,\n        \"totalPage\": 1\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "approve bids",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "{{apollogears}}/bids?rentId=6645ca7cc04d7716dde682dc",
+							"host": [
+								"{{apollogears}}"
+							],
+							"path": [
+								"bids"
+							],
+							"query": [
+								{
+									"key": "rentId",
+									"value": "6645ca7cc04d7716dde682dc"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "driver",
+			"item": [
+				{
+					"name": "bid a rent",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRyaXZlcjJAZ21haWwuY29tIiwicm9sZSI6ImRyaXZlciIsImlkIjoiNjY0NWNiODZjMDRkNzcxNmRkZTY4MmY0IiwiaWF0IjoxNzE1ODUwMzg3LCJleHAiOjE3MTU5MzY3ODd9.iHOLm9XZ6l8tNkdBxSkOTx43lHw-ogFM_OjbgYyKEP8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"rentId\": \"6645ca7cc04d7716dde682dc\", // Rental ID reference\r\n  \"bid\": \r\n    {\r\n    \"driver\": \"6645cb86c04d7716dde682f4\", // Driver ID reference\r\n    \"bidAmount\": 200, // Bid amount in currency\r\n    \"driverLocation\": \"789 Oak Street\" // Current location of the driver\r\n  }\r\n  \r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{apollogears}}/bids",
+							"host": [
+								"{{apollogears}}"
+							],
+							"path": [
+								"bids"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get rent bids Copy",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpZCI6IjY2NDVjODcxNmZkZTY4ZGExMWU0ZjViYiIsImlhdCI6MTcxNTg0OTc2NywiZXhwIjoxNzE1OTM2MTY3fQ.QXK889Q9Bc29OSFSSkVt9nVgcWHemPP3fmWQeYzyTyU",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{apollogears}}/bids?rentId=6645ca7cc04d7716dde682dc",
+							"host": [
+								"{{apollogears}}"
+							],
+							"path": [
+								"bids"
+							],
+							"query": [
+								{
+									"key": "rentId",
+									"value": "6645ca7cc04d7716dde682dc"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get rest bids",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1laGVkaWltdW43QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzE1NjI1Nzc0LCJleHAiOjE3MTU3MTIxNzR9.STWaHZ4f7HQOEmM8Fzm6VP2IAvMjjf1FUl72ctnFr5k",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{apollogears}}/bids?rentId=66426096f74eb0c14890c084",
+									"host": [
+										"{{apollogears}}"
+									],
+									"path": [
+										"bids"
+									],
+									"query": [
+										{
+											"key": "rentId",
+											"value": "66426096f74eb0c14890c084"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "308"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"134-ZoOR0K6/2sZfYuPtKOfoEiR9eD0\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 13 May 2024 19:11:26 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"Bids are retrieved succesfully\",\n    \"data\": [\n        {\n            \"bid\": {\n                \"driver\": \"664081829e3facd486642629\",\n                \"bidAmount\": 100,\n                \"driverLocation\": \"789 Oak Street\",\n                \"bidStatus\": \"pending\"\n            },\n            \"_id\": \"6642631371945c0176d8d547\",\n            \"rentId\": \"66426096f74eb0c14890c084\"\n        }\n    ],\n    \"meta\": {\n        \"page\": 1,\n        \"limit\": 10,\n        \"total\": 1,\n        \"totalPage\": 1\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "public",
+			"item": [
+				{
+					"name": "get all cars",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{apollogears}}/cars",
+							"host": [
+								"{{apollogears}}"
+							],
+							"path": [
+								"cars"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get user by id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3MTU4NDkzMzgsImV4cCI6MTcxNTkzNTczOH0.XN6ryTgvi-yacNgu13ijW_Tb0gOGa2GRm0OSPBgnJZ8",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{apollogears}}/users/6645c8716fde68da11e4f5bb",
+							"host": [
+								"{{apollogears}}"
+							],
+							"path": [
+								"users",
+								"6645c8716fde68da11e4f5bb"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
